@@ -1,0 +1,25 @@
+{
+  "name": "chatdaap",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "ethers": "^6.11.1",
+    "next": "14.1.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "css-loader": "^6.10.0",
+    "hardhat": "^2.21.0",
+    "postcss-loader": "^8.1.1",
+    "style-loader": "^3.3.4"
+  }
+}
